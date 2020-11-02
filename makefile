@@ -1,5 +1,5 @@
 CXX = cc
-CXXFLAGS = --std=c89 -pg -fpic -Wall -Wextra -O3
+CXXFLAGS = --std=c89 -fpic -Wall -Wextra -O3
 LDLIBS = -lm 
 GTK = `pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0`
 minatsu: minatsu.c minatsu.h

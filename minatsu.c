@@ -15,7 +15,7 @@ static gboolean closeWeb(WebKitWebView* webView, GtkWidget* window){
 int main(int argc, char* argv[]){
   GtkWidget *win;
   WebKitWebView *web;
-  gchar *url = "./index.html";
+  gchar *url = "https://kanokkorn.github.io/";
   gtk_init(&argc, &argv);
   if(argc == 2){
     url = argv[1];
